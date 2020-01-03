@@ -1,12 +1,12 @@
-TOWER_GUID=<bastion env GUID>
-OSP_GUID=<openstack env GUID>
+TOWER_GUID=0154
+OSP_GUID=dd6c
 PRIVATE_KEY=~/.ssh/mykey.pem
-OPENTLC_LOGIN=<opentlc-username>
-OPENTLC_PASSWORD=<password>
+OPENTLC_LOGIN=sa0030514-techmahindra.com
+OPENTLC_PASSWORD=M0ve1t@2019
 GITHUB_REPO=https://github.com/miteshrh/ansible_advance_homework_solve.git
 JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
 REGION=us-east-1
-RH_MAIL_ID=<username@company.name>
+RH_MAIL_ID=sa0030514@techmahindra.com
 
 GLOBAL_VARS="
         OSP_GUID=${OSP_GUID}
@@ -19,7 +19,8 @@ GLOBAL_VARS="
 	tower_GUID=${TOWER_GUID}
 	path_to_opentlc_key=${PRIVATE_KEY}
 	github_repo=${GITHUB_REPO}
-	osp_GUID=${OSP_GUID}
+	OSP_GUID=${OSP_GUID}
 	REGION_NAME=${REGION}
 	EMAIL=${RH_MAIL_ID}
-	“      
+"
+ 
